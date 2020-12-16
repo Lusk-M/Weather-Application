@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Weather Application</string>
+
+    <string name="weather_icon_description">Icon of current weather conditions</string>
+    <string name="weather_high_temp">High</string>
+    <string name="weather_low_temp">Low</string>
+    <string name="weather_precip_chance">Precipitation</string>
+    <string name="weather_moon_phase">Moon Phase</string>
+    <string name="weather_sunrise">Sunrise</string>
+    <string name="weather_sunset">Sunset</string>
+    <string name="weather_max_wind">Max Winds</string>
+    <string name="weather_min_winds">Min Winds</string>
+    <string name="weather_humidity">Humidity</string>
+</resources>

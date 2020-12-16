@@ -1,0 +1,15 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu_search"
+        android:title="search city"
+        android:icon="@drawable/baseline_search_24"
+        android:iconTint="#fff"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_refresh"
+        android:title="refresh"
+        android:icon="@drawable/baseline_refresh_24"
+        android:iconTint="#fff"
+        app:showAsAction="always" />
+</menu>
