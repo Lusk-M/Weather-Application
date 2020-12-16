@@ -1,4 +1,4 @@
-# Simple WeatherApplication
+# Simple Weather Application
 
 <h3>REQUIRES A CLIMACELL API KEY TO FUNCTION</h3>
 A simple weather application for current, hourly, and daily weather conditions.<br>
