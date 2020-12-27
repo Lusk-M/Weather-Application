@@ -57,7 +57,7 @@ public class DailyWeatherAdapter extends RecyclerView.Adapter<DailyWeatherAdapte
 
 
         DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd", Locale.ENGLISH);
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("E\nMM/d");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("E\nMM/dd");
         LocalDate dateFormat = LocalDate.parse(days.getDate(), inputFormatter);
         String formattedDate = dateFormat.format(formatter);
 
