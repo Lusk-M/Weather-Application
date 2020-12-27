@@ -62,13 +62,16 @@ public class HourlyWeatherAdapter extends RecyclerView.Adapter<HourlyWeatherAdap
         timeView.setText(actualLocalTime);
 
         TextView tempView = holder.tempTextView;
-        tempView.setText(hourly.getTemp() + hourly.getTempUnit());
+        String tempString = hourly.getTemp() + hourly.getTempUnit();
+        tempView.setText(tempString);
 
         TextView precipView = holder.precipTextView;
-        precipView.setText(hourly.getPrecipChance() + hourly.getPrecipUnit());
+        String precipString = hourly.getPrecipChance() + hourly.getPrecipUnit();
+        precipView.setText(precipString);
 
         TextView windView = holder.windTextView;
-        windView.setText(hourly.getWindSpeed() + " " + hourly.getWindUnit());
+        String windString = hourly.getWindSpeed() + " " + hourly.getWindUnit();
+        windView.setText(windString);
     }
 
     @Override

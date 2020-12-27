@@ -198,7 +198,6 @@ public class MainActivity extends AppCompatActivity {
 
             //Get the current weather from the database
             CurrentWeather testWeather = db.getCurrent();
-            Log.d("test weather object", testWeather + "");
 
             //Get the local device timezone and format the date strings
             Calendar cal = Calendar.getInstance();
@@ -209,9 +208,12 @@ public class MainActivity extends AppCompatActivity {
             String localFormattedTime = timeFormat.atZone(ZoneOffset.UTC).format(DateTimeFormatter.ofPattern("h:mm a z").withZone(ZoneId.of(tz.toZoneId().toString())));
 
             lastUpdatedView.setText(localFormattedTime);
-            tempTxt.setText(testWeather.getCurrentTemp() + "F");
-            windTxt.setText(testWeather.getWindSpeed() + " mph");
-            tempMinMax.setText(testWeather.getFeelsLikeTemp() + "F");
+            String temperatureString = testWeather.getCurrentTemp() + "F";
+            tempTxt.setText(temperatureString);
+            String windString = testWeather.getWindSpeed() + " mph";
+            windTxt.setText(windString);
+            String feelsLikeString = testWeather.getFeelsLikeTemp() + "F";
+            tempMinMax.setText(feelsLikeString);
             db.close();
         }
         else {

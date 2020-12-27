@@ -66,18 +66,23 @@ public class DailyWeatherAdapter extends RecyclerView.Adapter<DailyWeatherAdapte
         dateView.setText(formattedDate);
 
         TextView tempViewMin = holder.minTempView;
-        tempViewMin.setText(days.getMinTemp() + days.getMinTempUnit());
+        String minTempString = days.getMinTemp() + days.getMinTempUnit();
+        tempViewMin.setText(minTempString);
         TextView tempViewMax = holder.maxTempView;
-        tempViewMax.setText(days.getMaxTemp() + days.getMaxTempUnit());
+        String maxTempString = days.getMaxTemp() + days.getMaxTempUnit();
+        tempViewMax.setText(maxTempString);
 
         TextView humidView = holder.dayHumidView;
-        humidView.setText(days.getMaxHumid() + days.getMaxHumidUnit());
+        String humidityString = days.getMaxHumid() + days.getMaxHumidUnit();
+        humidView.setText(humidityString);
 
         TextView precipView = holder.dayPrecipView;
-        precipView.setText(days.getPrecipChance() + days.getPrecipUnit());
+        String precipString = days.getPrecipChance() + days.getPrecipUnit();
+        precipView.setText(precipString);
 
         TextView windView = holder.dayWindView;
-        windView.setText(days.getMaxWind() + " " + days.getMaxWindUnit());
+        String windString = days.getMaxWind() + " " + days.getMaxWindUnit();
+        windView.setText(windString);
 
         //Set an onClickListener to the CardView which runs an intent to the DetailedWeatherActivity
         //Include the weather day ID as an extra in the intent

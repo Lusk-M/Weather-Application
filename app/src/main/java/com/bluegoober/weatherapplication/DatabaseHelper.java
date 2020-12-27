@@ -139,6 +139,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             return currentWeatherObject;
         }
         else {
+            assert cursor != null;
             cursor.close();
             return null;
         }
