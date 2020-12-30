@@ -211,9 +211,9 @@ public class MainActivity extends AppCompatActivity {
             String temperatureString = testWeather.getCurrentTemp() + "F";
             tempTxt.setText(temperatureString);
             String windString = testWeather.getWindSpeed() + " mph";
-            windTxt.setText(windString);
+            windTxt.setText(" " + windString);
             String feelsLikeString = testWeather.getFeelsLikeTemp() + "F";
-            tempMinMax.setText(feelsLikeString);
+            tempMinMax.setText( " " + feelsLikeString);
             db.close();
         }
         else {
