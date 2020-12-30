@@ -51,7 +51,7 @@
                 android:id="@+id/current_temp_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Refresh for Weather"
+                android:text="@string/refresh_weather_prompt"
                 android:textSize="34sp"/>
         </LinearLayout>
         <LinearLayout
@@ -62,7 +62,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Feels Like "
+                android:text="@string/feels_like_label"
                 android:textSize="18sp"/>
             <TextView
                 android:layout_weight="1"
@@ -79,7 +79,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Winds Up to "
+                android:text="@string/winds_upto_label"
                 android:textSize="18sp"/>
             <TextView
                 android:layout_weight="1"
@@ -101,7 +101,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="3dp"
         android:textSize="18sp"
-        android:text="Hourly Forecast"/>
+        android:text="@string/hourly_forecast_label"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/hourly_recycler"
@@ -113,7 +113,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="3dp"
         android:textSize="18sp"
-        android:text="Daily Forecast"/>
+        android:text="@string/daily_forecast_label"/>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/daily_recycler"
         android:layout_width="match_parent"
@@ -127,7 +127,7 @@
         android:layout_height="wrap_content"
         android:textSize="12sp"
         android:layout_marginBottom="5dp"
-        android:text="Powered by ClimaCell"
+        android:text="@string/climacell_powered"
         android:layout_gravity="center"/>
 
 

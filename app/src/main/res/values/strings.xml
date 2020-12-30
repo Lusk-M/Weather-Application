@@ -11,4 +11,21 @@
     <string name="weather_max_wind">Max Winds</string>
     <string name="weather_min_winds">Min Winds</string>
     <string name="weather_humidity">Humidity</string>
+    <string name="refresh_weather_prompt">Refresh for Weather</string>
+    <string name="feels_like_label">Feels Like</string>
+    <string name="winds_upto_label">Winds Up to</string>
+    <string name="hourly_forecast_label">Hourly Forecast</string>
+    <string name="daily_forecast_label">Daily Forecast</string>
+    
+    <!-- Content description Strings -->
+    <string name="desc_thermometer">Thermometer Icon</string>
+    <string name="desc_thermometer_low">Empty Thermometer Icon</string>
+    <string name="desc_rain">Rain Icon</string>
+    <string name="desc_moon">Moon Icon</string>
+    <string name="desc_sunrise">Sun Rising</string>
+    <string name="desc_sunset">Sun Setting</string>
+    <string name="desc_high_wind">Strong Winds</string>
+    <string name="desc_low_wind">Low Winds Icon</string>
+    
+    <string name="climacell_powered">Powered by ClimaCell</string>
 </resources>

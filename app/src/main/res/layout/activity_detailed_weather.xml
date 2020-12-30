@@ -60,7 +60,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/wi_thermometer"
-                    android:contentDescription=""/>
+                    android:contentDescription="@string/desc_thermometer"/>
 
                 <TextView
                     android:id="@+id/detailed_hightemp_view"
@@ -83,7 +83,8 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/wi_thermometer_exterior" />
+                    android:src="@drawable/wi_thermometer_exterior"
+                    android:contentDescription="@string/desc_thermometer_low" />
 
                 <TextView
                     android:id="@+id/detailed_lowtemp_view"
@@ -106,7 +107,8 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/wi_rain" />
+                    android:src="@drawable/wi_rain"
+                    android:contentDescription="@string/desc_rain" />
 
                 <TextView
                     android:id="@+id/detailed_precip_view"
@@ -140,7 +142,8 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/wi_moon_alt_first_quarter" />
+                    android:src="@drawable/wi_moon_alt_first_quarter"
+                    android:contentDescription="@string/desc_moon" />
 
                 <TextView
                     android:id="@+id/detailed_moon_view"
@@ -163,7 +166,8 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/wi_sunrise" />
+                    android:src="@drawable/wi_sunrise"
+                    android:contentDescription="@string/desc_sunrise" />
 
                 <TextView
                     android:id="@+id/detailed_sunrise_view"
@@ -186,7 +190,8 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/wi_sunset" />
+                    android:src="@drawable/wi_sunset"
+                    android:contentDescription="@string/desc_sunset" />
 
                 <TextView
                     android:id="@+id/detailed_sunset_view"
@@ -219,7 +224,8 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/wi_wind_beaufort_10" />
+                    android:src="@drawable/wi_wind_beaufort_10"
+                    android:contentDescription="@string/desc_high_wind" />
 
                 <TextView
                     android:id="@+id/detailed_high_wind_view"
@@ -242,7 +248,8 @@
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/wi_wind_beaufort_1" />
+                    android:src="@drawable/wi_wind_beaufort_1"
+                    android:contentDescription="@string/desc_low_wind" />
 
                 <TextView
                     android:id="@+id/detailed_low_wind_view"
